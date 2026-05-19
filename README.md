@@ -1,6 +1,7 @@
 
 ***
 # SLAM Robot — ML Health Monitor (Anomaly Detection)
+streamlit website:https://quadruped-anomaly-detection-wg8myjqytetkp5bpgzr7gi.streamlit.app/
 
 ## Overview
 This repository contains the ML component of a SLAM robot project: a health-monitoring model that inspects time-series sensor readings and flags windows as "normal" or "anomaly". In a real SLAM robot the ML part acts as the brain that watches sensor streams (IMU, joint angles, motor torque, foot force, pressure, temperature, vibration, etc.) and answers: "Is the robot moving normally or is something wrong?" This project uses the SKAB dataset (sensor logs) to train and evaluate supervised and unsupervised anomaly detectors.
