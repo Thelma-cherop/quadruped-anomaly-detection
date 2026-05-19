@@ -1,0 +1,1 @@
+{"window_size": 50, "n_features": 8, "contamination_ratio": 0.25, "feature_names": ["Accelerometer1RMS", "Accelerometer2RMS", "Current", "Pressure", "Temperature", "Thermocouple", "Voltage", "Volume Flow RateRMS"]}
