@@ -114,16 +114,7 @@ This repository contains the ML component of a SLAM robot project: a health-moni
 ## Repository structure
 - data/               — raw CSV folders (anomaly-free, valve1)
 - notebooks/          — EDA and experiments
-- scripts/
-  - load_and_merge.py
-  - create_windows.py
-  - preprocess.py
-  - train_xgboost.py
-  - train_random_forest.py
-  - train_isolation_forest.py
-  - train_autoencoder.py
-  - evaluate_models.py
-- app/
+
   - dashboard.py      — Streamlit app (health score, gauge, anomaly windows)
 - models/             — saved models (.joblib, .pkl, .h5)
 - requirements.txt
@@ -137,8 +128,6 @@ This repository contains the ML component of a SLAM robot project: a health-moni
 - Try LSTM/GRU autoencoders, 1D CNNs, or Transformers for sequence learning without flattening.
 - For real-time deployment: use rolling buffer of last N rows, keep models lightweight, and implement drift monitoring.
 
-## License
-Choose and add an appropriate license file (MIT, Apache 2.0, etc.).
 
 ## Acknowledgements
 - Dataset: SKAB (used to emulate SLAM robot sensor telemetry).  
