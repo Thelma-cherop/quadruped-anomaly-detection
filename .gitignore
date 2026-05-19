@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+*.zip
+*.bag
+
+# Environment
+.env
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Model files (optional - comment out if you want to push models)
+# *.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
